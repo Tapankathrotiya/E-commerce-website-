@@ -1,0 +1,33 @@
+.hero {
+    position: relative;
+    background: url('../../../src/New folder/asset 8.jpeg') no-repeat center center/cover;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+  }
+  
+  .hero-content h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0 0 20px 0;
+  }
+  
+  .hero-content p {
+    font-size: 16px;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .buy-btn {
+    position: absolute;
+    bottom: 30px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
